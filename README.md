@@ -17,6 +17,10 @@ Asegúrarse de tener instalado:
 - Django 4+
 - PyMuPDF
 
+## Para instalar las dependencias, ejecuta:
+```bash
+   pip install -r requirements.txt
+   ```
 
 ## Configuración
 1. Clona el repositorio:
