@@ -25,7 +25,7 @@ Asegúrarse de tener instalado:
 ## Configuración
 1. Clona el repositorio:
    ```bash
-   git clone (https://github.com/DacoCode/PruebaTecnicaAdres.git)
+   git clone https://github.com/DacoCode/PruebaTecnicaAdres.git
    ```
 
 3. Ejecuta migraciones y levanta el servidor:
