@@ -15,7 +15,7 @@ Tambien realiza validacion de datos en columnas donde debe de cumplir unos param
 Asegúrarse de tener instalado:
 - Python 3.8+
 - Django 4+
-- PyPDF2
+- PyMuPDF
 
 
 ## Configuración
