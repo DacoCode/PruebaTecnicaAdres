@@ -1,4 +1,4 @@
-# Proyecto Django: Procesamiento de Facturas en PDF y validaciones de datos en foramto txt
+# Proyecto Django: Procesamiento de Facturas en PDF y validaciones de datos en formato txt
 
 ## Descripción
 Este proyecto en Django permite la carga, procesamiento y validación de archivos PDF de facturas en PDF. Extrae información clave como el CUFE, número de páginas y peso del archivo, almacenándolos en la base de datos SQLite del proyecto.
