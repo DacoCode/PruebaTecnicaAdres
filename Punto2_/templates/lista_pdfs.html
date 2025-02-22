@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de PDFs</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de PDFs Procesados</h1>
+    <table>
+        <tr>
+            <th>Nombre Archivo</th>
+            <th>Número de Páginas</th>
+            <th>CUFE</th>
+            <th>Peso (KB)</th>
+        </tr>
+        {% for factura in facturas %}
+        <tr>
+            <td>{{ factura.Nombre_archivo }}</td>
+            <td>{{ factura.Numero_paginas }}</td>
+            <td>{{ factura.CUFE }}</td>
+            <td>{{ factura.Peso_archivo|floatformat:2 }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
