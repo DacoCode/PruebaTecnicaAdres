@@ -17,17 +17,16 @@ Asegúrarse de tener instalado:
 - Django 4+
 - PyMuPDF
 
-## Para instalar las dependencias, ejecuta:
-```bash
-   pip install -r requirements.txt
-   ```
 
 ## Configuración
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/DacoCode/PruebaTecnicaAdres.git
    ```
-
+2. Para instalar las dependencias, ejecuta:
+```bash
+   pip install -r requirements.txt
+   ```
 3. Ejecuta migraciones y levanta el servidor:
    ```bash
    python manage.py migrate
